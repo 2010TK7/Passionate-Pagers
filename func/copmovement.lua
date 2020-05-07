@@ -1,3 +1,6 @@
+PassionatePagers:Load()
+if not PassionatePagers.settings.PP_ene_all then return end
+
 local OldFunc = CopMovement.post_init
 function CopMovement:post_init()
 	OldFunc(self)

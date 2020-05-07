@@ -3,12 +3,23 @@
 	"description": "Everyone have pager.",
 	"author": "TK7"
 	"contact": "https://steamcommunity.com/id/2010TK7",
-	"version": "0.8",
+	"version": "0.9",
 	"blt_version": 2,
+	"updates": [
+		{"identifier": "TPP", "host": {"meta": "https://storage.live.com/items/8C3AB972E7E69B18!126?authkey=!AJe_UwzgzOaAJGs"}}
+	],
 	"hooks": [
-		{"hook_id": "lib/units/civilians/civilianbrain", "script_path": "civilianbrain.lua"},
-		{"hook_id": "lib/units/civilians/logics/civilianlogicinactive", "script_path": "civilianlogicinactive.lua"},
-		{"hook_id": "lib/units/civilians/logics/civilianlogicsurrender", "script_path": "civilianlogicsurrender.lua"},
-		{"hook_id": "lib/units/enemies/cop/copmovement", "script_path": "copmovement.lua"}
+		{"hook_id": "lib/managers/menumanager", "script_path": "passionatepagers.lua"},
+		{"hook_id": "lib/managers/menumanager", "script_path": "menumanager.lua"},
+
+		{"hook_id": "lib/units/civilians/civilianbrain", "script_path": "passionatepagers.lua"},
+		{"hook_id": "lib/units/civilians/logics/civilianlogicinactive", "script_path": "passionatepagers.lua"},
+		{"hook_id": "lib/units/civilians/logics/civilianlogicsurrender", "script_path": "passionatepagers.lua"},
+		{"hook_id": "lib/units/enemies/cop/copmovement", "script_path": "passionatepagers.lua"},
+
+		{"hook_id": "lib/units/civilians/civilianbrain", "script_path": "func/civilianbrain.lua"},
+		{"hook_id": "lib/units/civilians/logics/civilianlogicinactive", "script_path": "func/civilianlogicinactive.lua"},
+		{"hook_id": "lib/units/civilians/logics/civilianlogicsurrender", "script_path": "func/civilianlogicsurrender.lua"},
+		{"hook_id": "lib/units/enemies/cop/copmovement", "script_path": "func/copmovement.lua"}
 	]
 }

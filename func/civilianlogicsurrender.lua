@@ -1,3 +1,6 @@
+PassionatePagers:Load()
+if not PassionatePagers.settings.PP_civ_tie then return end
+
 function CivilianLogicSurrender.on_tied(data, aggressor_unit, not_tied, can_flee)
 	local my_data = data.internal_data
 

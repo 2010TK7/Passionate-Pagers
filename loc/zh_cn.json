@@ -1,0 +1,12 @@
+{
+	"PP_menu_title": "全员对讲机",
+	"PP_menu_desc": "所有人都有对讲机",
+	"PP_loc_chn_title": "简体中文",
+	"PP_loc_chn_desc": "关闭后变英文",
+	"PP_ene_all_title": "所有敌人",
+	"PP_ene_all_desc": "所有敌人都有对讲机",
+	"PP_civ_die_title": "平民死亡",
+	"PP_civ_die_desc": "杀死平民触发对讲机",
+	"PP_civ_tie_title": "平民人质",
+	"PP_civ_tie_desc": "捆绑平民触发对讲机"
+}

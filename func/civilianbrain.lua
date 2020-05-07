@@ -1,3 +1,6 @@
+PassionatePagers:Load()
+if not PassionatePagers.settings.PP_civ_tie then return end
+
 local OldFunc = CivilianBrain.on_alarm_pager_interaction
 function CivilianBrain:on_alarm_pager_interaction(status, ...)
 	OldFunc(self, status, ...)

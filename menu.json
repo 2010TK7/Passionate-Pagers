@@ -1,0 +1,46 @@
+{
+	"menu_id": "PP_menu",
+	"parent_menu_id": "blt_options",
+	"title": "PP_menu_title",
+	"description": "PP_menu_desc",
+	"back_callback": "PPSave",
+	"items":
+	[
+		{
+			"type": "toggle",
+			"id": "PP_loc_chn",
+			"title": "PP_loc_chn_title",
+			"description": "PP_loc_chn_desc",
+			"callback": "PPCheck",
+			"value": "PP_loc_chn",
+			"default_value": false
+		},
+		{
+			"type": "toggle",
+			"id": "PP_ene_all",
+			"title": "PP_ene_all_title",
+			"description": "PP_ene_all_desc",
+			"callback": "PPCheck",
+			"value": "PP_ene_all",
+			"default_value": true
+		},
+		{
+			"type": "toggle",
+			"id": "PP_civ_die",
+			"title": "PP_civ_die_title",
+			"description": "PP_civ_die_desc",
+			"callback": "PPCheck",
+			"value": "PP_civ_die",
+			"default_value": true
+		},
+		{
+			"type": "toggle",
+			"id": "PP_civ_tie",
+			"title": "PP_civ_tie_title",
+			"description": "PP_civ_tie_desc",
+			"callback": "PPCheck",
+			"value": "PP_civ_tie",
+			"default_value": true
+		}
+	]
+}
